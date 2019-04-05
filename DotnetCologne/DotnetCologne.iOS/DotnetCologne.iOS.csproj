@@ -114,8 +114,5 @@
       <Name>DotnetCologne</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="appcenter-pre-build.sh" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
