@@ -21,10 +21,9 @@
 #
 # AN IMPORTANT THING: FOR THIS SAMPLE YOU NEED DECLARE API_URL ENVIRONMENT VARIABLE IN APP CENTER BUILD CONFIGURATION.
 
-
 if [ ! -n "$API_KEY_DROID" ]
 then
-    echo "You need define the $API_KEY_DROID variable in App Center"
+    echo "You need define the API_KEY_DROID variable in App Center"
     exit
 fi
 

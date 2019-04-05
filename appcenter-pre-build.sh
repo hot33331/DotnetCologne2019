@@ -23,7 +23,7 @@
 
 if [ ! -n "$API_KEY_IOS" ]
 then
-    echo "You need define the $API_KEY_IOS variable in App Center"
+    echo "You need define the API_KEY_IOS variable in App Center"
     exit
 fi
 
