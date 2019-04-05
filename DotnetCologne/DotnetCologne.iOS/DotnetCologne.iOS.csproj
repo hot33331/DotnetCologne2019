@@ -18,7 +18,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
-    <DefineConstants>DEBUG</DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;DEBUG;ENABLE_TEST_CLOUD</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
@@ -107,10 +107,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
+    <PackageReference Include="Xamarin.TestCloud.Agent">
+      <Version>0.21.7</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DotnetCologne\DotnetCologne.csproj">
-      <Project>{659B8B27-0697-4F6F-8814-9D1866CF35C5}</Project>
+      <Project>{AD47B8AF-861A-49CA-9525-12ECD1563461}</Project>
       <Name>DotnetCologne</Name>
     </ProjectReference>
   </ItemGroup>

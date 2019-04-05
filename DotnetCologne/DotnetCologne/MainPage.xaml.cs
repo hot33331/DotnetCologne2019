@@ -13,5 +13,25 @@ namespace DotnetCologne
         {
             InitializeComponent();
         }
+
+        private void OnHoldMeButtonClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void OnThrillMeButtonClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void OnKissMeButtonClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void OnKillMeButtonClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

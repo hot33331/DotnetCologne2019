@@ -6,9 +6,28 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Button Text="Hold me" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" 
+           Clicked="OnHoldMeButtonClicked"
+           AutomationId="btnHoldMe"/>
+        <Button Text="Thrill me" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               Clicked="OnThrillMeButtonClicked"
+               AutomationId="btnThrillMe"/>
+        <Button Text="Kiss me" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               Clicked="OnKissMeButtonClicked"
+               AutomationId="btnKissMe"/>
+        <Button Text="Kill me"  
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               Clicked="OnKillMeButtonClicked"
+               AutomationId="btnKillMe"/>
+        
+        
     </StackLayout>
 
 </ContentPage>

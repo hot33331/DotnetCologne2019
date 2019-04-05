@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCologne.Android", "Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCologne.iOS", "DotnetCologne\DotnetCologne.iOS\DotnetCologne.iOS.csproj", "{D72E5E01-D536-4CB1-9FB4-A44E70A3F866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCologne.Test", "DotnetCologne.Test\DotnetCologne.Test.csproj", "{627B7B18-0256-4101-93FF-15473C1C78FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
@@ -82,5 +84,21 @@ Global
 		{D72E5E01-D536-4CB1-9FB4-A44E70A3F866}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{D72E5E01-D536-4CB1-9FB4-A44E70A3F866}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{D72E5E01-D536-4CB1-9FB4-A44E70A3F866}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Release|iPhone.Build.0 = Release|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{627B7B18-0256-4101-93FF-15473C1C78FD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
