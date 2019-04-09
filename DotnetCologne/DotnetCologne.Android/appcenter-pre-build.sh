@@ -20,7 +20,7 @@
 # The same thing can be perform with any class of the app.
 #
 # AN IMPORTANT THING: FOR THIS SAMPLE YOU NEED DECLARE API_URL ENVIRONMENT VARIABLE IN APP CENTER BUILD CONFIGURATION.
-
+echo "Script is running!"
 if [ ! -n "$API_KEY_DROID" ]
 then
     echo "You need define the API_KEY_DROID variable in App Center"
