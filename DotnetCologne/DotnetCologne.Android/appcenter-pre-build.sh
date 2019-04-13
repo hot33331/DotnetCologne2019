@@ -29,7 +29,7 @@ fi
 
 echo $APPCENTER_SOURCE_DIRECTORY
 
-APP_CONSTANT_FILE=$APPCENTER_SOURCE_DIRECTORY/DotnetCologne/DotnetCologne/AppConstant.cs
+APP_CONSTANT_FILE=$APPCENTER_SOURCE_DIRECTORY/DotnetCologne/DotnetCologne/AppConstants.cs
 echo $APP_CONSTANT_FILE
 
 if [ ! -n "$APP_CONSTANT_FILE" ]
