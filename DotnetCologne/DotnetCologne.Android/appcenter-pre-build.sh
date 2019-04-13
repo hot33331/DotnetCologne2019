@@ -30,6 +30,8 @@ fi
 echo $APPCENTER_SOURCE_DIRECTORY
 
 APP_CONSTANT_FILE=$APPCENTER_SOURCE_DIRECTORY/DotnetCologne/AppConstant.cs
+echo $APP_CONSTANT_FILE
+
 if [ ! -n "$APP_CONSTANT_FILE" ]
 then
     echo "You need define the APP_CONSTANT_FILE variable"
