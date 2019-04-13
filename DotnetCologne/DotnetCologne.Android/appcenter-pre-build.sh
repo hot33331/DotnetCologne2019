@@ -20,21 +20,24 @@
 # The same thing can be perform with any class of the app.
 #
 # AN IMPORTANT THING: FOR THIS SAMPLE YOU NEED DECLARE API_URL ENVIRONMENT VARIABLE IN APP CENTER BUILD CONFIGURATION.
-echo "Script is running!"
+echo "DOING"
 if [ ! -n "$API_KEY_DROID" ]
 then
     echo "You need define the API_KEY_DROID variable in App Center"
     exit
 fi
 
-echo $APPCENTER_SOURCE_DIRECTORY
-
 APP_CONSTANT_FILE=$APPCENTER_SOURCE_DIRECTORY/DotnetCologne/DotnetCologne/AppConstants.cs
-echo $APP_CONSTANT_FILE
 
 if [ ! -n "$APP_CONSTANT_FILE" ]
 then
     echo "You need define the APP_CONSTANT_FILE variable"
+    exit
+fi
+
+if [ ! -e "$APP_CONSTANT_FILE" ]
+then
+ echo "The App constants file does not exist in the location you specified!"
     exit
 fi
 
@@ -46,3 +49,4 @@ then
     echo "File content:"
     cat $APP_CONSTANT_FILE
 fi
+echo "DONE"
