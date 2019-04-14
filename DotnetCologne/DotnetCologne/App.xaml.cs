@@ -1,4 +1,9 @@
 ﻿using System;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Distribute;
+using Microsoft.AppCenter.Push;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,7 +22,7 @@ namespace DotnetCologne
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            AppCenter.Start("ios=" + AppConstants.AppCenterKeyIos + ";uwp=" + AppConstants.AppCenterKeyUwp + ";android=" + AppConstants.AppCenterKeyDroid, typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
         }
 
         protected override void OnSleep()
