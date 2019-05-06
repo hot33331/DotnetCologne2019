@@ -14,6 +14,7 @@ namespace DotnetCologne
         public MainPage()
         {
             InitializeComponent();
+            LblBildId.Text = "BuildId " + AppConstants.AppCenterBuildId;
         }
 
         private void OnHoldMeButtonClicked(object sender, EventArgs e)

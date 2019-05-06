@@ -45,6 +45,9 @@ if [ -e "$APP_CONSTANT_FILE" ]
 then
     echo "Updating API_KEY_DROID to $API_KEY_DROID in AppConstant.cs"
     sed -i '' 's#AppCenterKeyDroid = "[-A-Za-z0-9:_./]*"#AppCenterKeyDroid = "'$API_KEY_DROID'"#' $APP_CONSTANT_FILE
+    
+    echo "Updating AppCenterBuildId to $APPCENTER_BUILD_ID in AppConstant.cs"
+    sed -i '' 's#AppCenterBuildId = "[-A-Za-z0-9:_./]*"#AppCenterBuildId = "'$APPCENTER_BUILD_ID'"#' $APP_CONSTANT_FILE
 
     echo "File content:"
     cat $APP_CONSTANT_FILE

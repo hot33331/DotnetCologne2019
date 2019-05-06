@@ -26,6 +26,10 @@
                VerticalOptions="CenterAndExpand" 
                Clicked="OnKillMeButtonClicked"
                AutomationId="btnKillMe"/>
+        <Label x:Name="LblBildId"  
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                AutomationId="lblBuildId"/>
         
         
     </StackLayout>
