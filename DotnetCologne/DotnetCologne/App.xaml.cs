@@ -50,6 +50,12 @@ namespace DotnetCologne
                 };
             }
             AppCenter.Start("ios=" + AppConstants.AppCenterKeyIos + ";uwp=" + AppConstants.AppCenterKeyUwp + ";android=" + AppConstants.AppCenterKeyDroid, typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
+#if ENABLE_TEST_CLOUD
+            Analytics.SetEnabledAsync(false); // no analytics from Denmark ;-)
+            Push.SetEnabledAsync(false); // no push during tests
+            Distribute.SetEnabledAsync(false); // no distribution during tests
+#endif
+            
         }
 
         protected override void OnSleep()
