@@ -1,5 +1,7 @@
 # DotnetCologne2019
 
+Please find the slides here https://www.slideshare.net/hot33331/continuous-everything-dotnet-cologne-2019
+
 Here's our Build status for
 
 Android: [![Build status](https://build.appcenter.ms/v0.1/apps/54c7d76b-dd3a-4bb7-815c-e52916aadb14/branches/master/badge)](https://appcenter.ms)
